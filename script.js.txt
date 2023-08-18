@@ -1,0 +1,9 @@
+const incrementButtons = document.querySelectorAll(".increment-btn");
+const counters = document.querySelectorAll(".counter");
+
+incrementButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    const counter = counters[index];
+    counter.textContent = parseInt(counter.textContent) + 1;
+  });
+});

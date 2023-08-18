@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أسماء الأصدقاء</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="friend">
+      <span class="friend-name">صديق 1</span>
+      <span class="counter">0</span>
+      <button class="increment-btn">زيادة</button>
+    </div>
+    <div class="friend">
+      <span class="friend-name">صديق 2</span>
+      <span class="counter">0</span>
+      <button class="increment-btn">زيادة</button>
+    </div>
+    <!-- يمكنك إضافة المزيد من الأصدقاء هنا -->
+  </div>
+  
+<script src="script.js"></script>
+</body>
+</html>
