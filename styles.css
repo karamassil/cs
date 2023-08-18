@@ -1,0 +1,66 @@
+/* أسلوب CSS مستوحى من لعبة كاونتر سترايك مع صورة خلفية ومنتصف النص */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/213254434_4108432855890714_2329960935484225663_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=kx0XNWbzVhgAX97qDYI&_nc_ht=scontent.fjed5-1.fna&oh=00_AfBiG5ZSsOiHHf6V2NG97gMZkEIWFned72us3Z-0ahqy-g&oe=64E4784E'); /* رابط الصورة هنا */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px; /* إضافة هامش سفلي */
+}
+
+.friends-table {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #444;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #333;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3cb371;
+}
+
+.table-heading {
+  text-align: center;
+}
